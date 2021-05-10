@@ -1,0 +1,545 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Belfast Free Walking Tour</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{%static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{%static 'vendor/venobox/venobox.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i> <a href="mailto:contact@example.com">belfastfwt@gmail.com</a>
+        <i class="icofont-phone"></i> +44 7393 585531
+      </div>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="#" class="skype"><i class="icofont-skype"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">{% trans "Belfast Free Walking Tour" %}</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">{% trans "Home" %}</a></li>
+          <li><a href="#about">{% trans "About Us" %}</a></li>
+          <li class="drop-down"><a href="">{% trans "Other Tours" %}</a>
+            <ul>
+              <li><a href="#">{% trans "Free Tour" %}</a></li>
+              <li><a href="#">{% trans "Day Tour" %}</a></li>
+              <li><a href="#">{% trans "Political Tour" %}</a></li>
+              <li><a href="#">{% trans "City Tour" %}</a></li>
+			  <li><a href="#">{% trans "Private Tour" %}</a></li>
+            </ul>
+
+          <li><a href="#contact">{% trans "Contact" %}</a></li>
+
+            <li class="drop-down"><a href="">{% trans "Language Selection" %}</a>
+            <ul>
+              <p><a href="http://localhost:8000/en/belfastapp/home">{% trans "English" %}</a></p>
+              <p><a href="http://localhost:8000/pl/belfastapp/home">{% trans "Polish" %}</a></p>
+              <p><a href="http://localhost:8000/de/belfastapp/home">{% trans "German" %}</a></p>
+            </ul>
+
+          </li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+          <div <img class="carousel-item active" style = background-image: src="{% static 'img/slide/slide-1.jpg' %}" class="img-fluid" alt="">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 style="color:black" class="animate__animated animate__fadeInDown">{% trans "Welcome to the Belfast Free Walking Tour!" %}</h2>
+              <p style="color:black" class="animate__animated animate__fadeInUp">{% trans "The best way to explore this compact city and experience the unique atmosphere is on foot. We offer FREE walking tours several times a day along with specialty subject tours daily" %}</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">{% trans "Read More" %}</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 style="color:black" class="animate__animated animate__fadeInDown">{% trans "Beautiful Tours !" %}</h2>
+              <p style="color:black" class="animate__animated animate__fadeInUp">{% trans "What better way to understand the history, the people and the stories that helped shape this city, from the early days of the Norman Conquest, through the arrival of the English and the Industrial Revolution to modern-day Belfast with one of our passionate and entertaining local guides who will weave stories that will make you laugh and maybe even bring a tear to your eye." %}</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">{% trans "Read More" %}</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 style="color:black" class="animate__animated animate__fadeInDown">{% trans "Join us !" %}</h2>
+              <p style="color:black" class="animate__animated animate__fadeInUp">{% trans "On our award-winning guides for a casual stroll through the streets of the Capital. Belfast is one of the most vibrant, historical, and at one time one of the most troubled cities in Europe." %}</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">{% trans "Read More" %}</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>{% trans "Booking Information" %}</h2>
+          <p>
+			{% trans "We at Belfast Free Walking Tour are delighted to welcome you to the capital of Northern Ireland. We invite you to join us to explore the city during your stay." %}
+		  </p>
+		  <p>
+			{% trans "Booking for the free tour is essential due to COVID-19 Tracking Regulations" %}
+		  </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="{% static 'img/city.jpg' %}" class="img-fluid" alt="">
+          </div>
+		
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>{% trans "TOUR DEPARTS FROM CITY HALL, OPPOSITE VISIT BELFAST TOURIST OFFICE AT 11AM AND 2.30PM." %}</h3>
+            <p class="font-italic">
+            {% trans "We'll visit famous places such as :" %}
+            </p>
+            <ul>
+              <li><i class="icofont-check-circled"></i> {% trans "The Docklands and The Lagan River" %}</li>
+			  <li><i class="icofont-check-circled"></i> {% trans "Cathedral Quarter" %}</li>
+			  <li><i class="icofont-check-circled"></i> {% trans "Belfast City Hall" %}</li>
+              <li><i class="icofont-check-circled"></i> {% trans "Albert Clock" %}</li>
+              <li><i class="icofont-check-circled"></i> {% trans "The Big Fish" %}</li>
+			  <li><i class="icofont-check-circled"></i> {% trans "City Laneways" %}</li>
+            </ul>
+            <p>
+              {% trans "What better way to understand the history, the people and the stories that helped shape this city, from the early days of the Norman Conquest, through the arrival of the English and the Industrial Revolution to modern-day Belfast with one of our passionate and entertaining local guides who will weave stories that will make you laugh and maybe even bring a tear to your eye." %}
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+<!-- ======= Booking Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>{% trans "BOOK HERE" %}</h2>
+          <p>{% trans "Please fill out the form to register a booking, you will recieve an email with your booking registration." %}</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>{% trans "Location:" %}</h4>
+                <p>9 Donegall Square N, Belfast BT1 5GB, United Kingdom</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>belfastfwt@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>{% trans "Call:" %}</h4>
+                <p>+44 7393 585531</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.376143312772!2d-5.933067684114018!3d54.59736598026017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48610856f8ef68e1%3A0xed81874febf9ef0d!2sVisit%20Belfast!5e0!3m2!1sen!2sie!4v1620326925160!5m2!1sen!2sie" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-content-right">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">{% trans "Your Name" %}</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">{% trans "Your Email" %}</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">{% trans "Phone Number" %}</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter a phone number." />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">{% trans "Booking Details" %}</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please include your booking details here."></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">{% trans "Your booking is being made..." %}</div>
+              </div>
+              <div class="text-center"><button type="submit">{% trans "Confirm Booking" %}</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+      </div>
+    </section><!-- End Our Clients Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>{% trans "Gallery" %}</h2>
+          <p>{% trans "This is a compliation of photos of the famous places the tour visits." %}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">{% trans "All" %}</li>
+              <li data-filter=".filter-river">{% trans "River" %}</li>
+              <li data-filter=".filter-center">{% trans "City Center" %}</li>
+              <li data-filter=".filter-lanes">{% trans "City Lanes" %}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-river">
+            <div class="portfolio-wrap">
+
+              <img src="{% static 'img/portfolio/river1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "The Docklands and Lagan River" %}</h4>
+                <p>River</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/river1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-center">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/cathedral1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Cathedral Quarter" %}</h4>
+                <p>{% trans "City Center" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/cathedral1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-center">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/cityhall1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Belfast City Hall" %}</h4>
+                <p>{% trans "City Center" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/cityhall1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-center">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/clock1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Albert Clock" %}</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/clock1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-river">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/fish1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Belfast's Big Fish" %}</h4>
+                <p>{% trans "River" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/fish1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lanes">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/lanes1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Belfast's City Lanes" %}</h4>
+                <p>{% trans "App" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/lanes1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-river">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/river2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "The Docklands and Lagan River" %}</h4>
+                <p>{% trans "River" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/river2.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lanes filter-center">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/cathedral2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% trans "Cathedral Quarter" %}</h4>
+                <p>{% trans "Card" %}</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/cathedral2.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>{% trans "Reviews" %}</h2>
+          <p>{% trans "We strive for the best possible free tour to offer to the public, and your feedback is very important to us." %}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="{% static 'img/team/team-1.jpg' %}" alt="">
+              <h4>Andrzej Kaczmarek</h4>
+              <p>
+                {% trans "Altogther a very enjoyable experience! The tour guides were very friendly and good. Would definetly recommend this service!" %}
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="{% static 'img/team/team-2.jpg' %}" alt="">
+              <h4>Sarah Peterson</h4>
+              <p>
+				{% trans "Tour was very good, with very good places to go sight-seeing." %}
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="{% static 'img/team/team-3.jpg' %}" alt="">
+              <h4>Anonymous</h4>
+              <p>
+                {% trans "The tour was on time and the guides were really helpful in learning about the city." %}
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+<!-- ======= Booking Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>{% trans "Contact" %}</h2>
+          <p>{% trans "Send us an Email and we'll get back to you ASAP." %}</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 mt-5 mt-lg-0 pl-6 d-flex align-content-right">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">{% trans "Your Name" %}</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">{% trans "Your Email" %}</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">{% trans "Subject" %}</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">{% trans "Details" %}</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write your message here"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">{% trans "Thank you!" %}</div>
+              </div>
+              <div class="text-center"><button type="submit">{% trans "Send Message" %}</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>{% trans "Belfast Free Walking Tour" %}</h3>
+      <p>{% trans "Be sure to check out the other tours we offer too and follow us on our socials!" %}</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+        {% trans "Designed by Michal Korneluk C19434762" %}</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/venobox/venobox.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>

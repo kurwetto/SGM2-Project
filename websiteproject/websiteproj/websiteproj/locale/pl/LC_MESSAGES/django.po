@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-10 00:22+0100\n"
+"PO-Revision-Date: 2021-05-10 00:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: .\belfastapp\views.py:7
+msgid "Welcome to language translation!"
+msgstr "Zapraszamy do tłumaczenia językowego!"
+
+#: .\websiteproj\settings.py:121 .\websiteproj\templates\index.html:81
+msgid "Polish"
+msgstr "Polski"
+
+#: .\websiteproj\settings.py:122 .\websiteproj\templates\index.html:80
+msgid "English"
+msgstr "Angielski"
+
+#: .\websiteproj\settings.py:123 .\websiteproj\templates\index.html:82
+msgid "German"
+msgstr "Niemiecki"
+
+#: .\websiteproj\templates\index.html:59 .\websiteproj\templates\index.html:517
+msgid "Belfast Free Walking Tour"
+msgstr "Darmowy Tour Belfasta"
+
+#: .\websiteproj\templates\index.html:65
+msgid "Home"
+msgstr "Start"
+
+#: .\websiteproj\templates\index.html:66
+msgid "About Us"
+msgstr "O nas"
+
+#: .\websiteproj\templates\index.html:67
+msgid "Other Tours"
+msgstr "Inne wycieczki"
+
+#: .\websiteproj\templates\index.html:69
+msgid "Free Tour"
+msgstr "Bezpłatna wycieczka"
+
+#: .\websiteproj\templates\index.html:70
+msgid "Day Tour"
+msgstr "Wycieczka jednodniowa"
+
+#: .\websiteproj\templates\index.html:71
+msgid "Political Tour"
+msgstr "Wycieczka polityczna"
+
+#: .\websiteproj\templates\index.html:72
+msgid "City Tour"
+msgstr "Zwiedzanie miasta"
+
+#: .\websiteproj\templates\index.html:73
+msgid "Private Tour"
+msgstr "Prywatna wycieczka"
+
+#: .\websiteproj\templates\index.html:76 .\websiteproj\templates\index.html:474
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\websiteproj\templates\index.html:78
+msgid "Language Selection"
+msgstr "Wybór języka"
+
+#: .\websiteproj\templates\index.html:108
+msgid "Welcome to the Belfast Free Walking Tour!"
+msgstr "Witamy na darmowej pieszej wycieczce po Belfaście!"
+
+#: .\websiteproj\templates\index.html:109
+msgid ""
+"The best way to explore this compact city and experience the unique "
+"atmosphere is on foot. We offer FREE walking tours several times a day along "
+"with specialty subject tours daily"
+msgstr ""
+"Najlepszym sposobem na zwiedzanie tego kompaktowego miasta i doświadczyć "
+"wyjątkowej atmosfery jest pieszo. Oferujemy bezpłatne wycieczki piesze kilka "
+"razy dziennie wraz ze specjalistycznymi wycieczkami tematyka codziennie"
+
+#: .\websiteproj\templates\index.html:110
+#: .\websiteproj\templates\index.html:121
+#: .\websiteproj\templates\index.html:133
+msgid "Read More"
+msgstr "Czytaj wiecej"
+
+#: .\websiteproj\templates\index.html:119
+msgid "Beautiful Tours !"
+msgstr "Piekne Wyciekci !"
+
+#: .\websiteproj\templates\index.html:120
+#: .\websiteproj\templates\index.html:191
+msgid ""
+"What better way to understand the history, the people and the stories that "
+"helped shape this city, from the early days of the Norman Conquest, through "
+"the arrival of the English and the Industrial Revolution to modern-day "
+"Belfast with one of our passionate and entertaining local guides who will "
+"weave stories that will make you laugh and maybe even bring a tear to your "
+"eye."
+msgstr ""
+"Czy jest lepszy sposób na zrozumienie historii, ludzi i historii, które "
+"pomogły ukształtować to miasto, od wczesnych dni podboju normańskiego, przez "
+"nadejście Anglii i rewolucji przemysłowej do współczesnego Belfastu z jednym "
+"z naszych pasjonatów i zabawnych lokalni przewodnicy, którzy będą snuć "
+"historie, które rozśmieszy Cię, a może nawet wywołają łzę w oku."
+
+#: .\websiteproj\templates\index.html:131
+msgid "Join us !"
+msgstr "Dolacz do nas!"
+
+#: .\websiteproj\templates\index.html:132
+msgid ""
+"On our award-winning guides for a casual stroll through the streets of the "
+"Capital. Belfast is one of the most vibrant, historical, and at one time one "
+"of the most troubled cities in Europe."
+msgstr ""
+"W naszych wielokrotnie nagradzanych przewodnikach na spacer po ulicach "
+"stolicy. Belfast to jedno z najbardziej tętniących życiem, historycznych i "
+"niegdyś jednych z najbardziej niespokojnych miast w Europie."
+
+#: .\websiteproj\templates\index.html:163
+msgid "Booking Information"
+msgstr "Sugestie dotyczące rezerwacji"
+
+#: .\websiteproj\templates\index.html:165
+msgid ""
+"We at Belfast Free Walking Tour are delighted to welcome you to the capital "
+"of Northern Ireland. We invite you to join us to explore the city during "
+"your stay."
+msgstr ""
+"W Belfast Free Walking Tour z przyjemnością witamy Cię w stolicy Irlandii "
+"Północnej. Zapraszamy do przyłączenia się do nas i zwiedzania miasta podczas "
+"pobytu."
+
+#: .\websiteproj\templates\index.html:168
+msgid ""
+"Booking for the free tour is essential due to COVID-19 Tracking Regulations"
+msgstr ""
+"Rezerwacja bezpłatnej wycieczki jest niezbędna ze względu na Regulamin "
+"śledzenia COVID-19"
+
+#: .\websiteproj\templates\index.html:178
+msgid ""
+"TOUR DEPARTS FROM CITY HALL, OPPOSITE VISIT BELFAST TOURIST OFFICE AT 11AM "
+"AND 2.30PM."
+msgstr "WYJAZDY Z RATU MIASTA, PRZECIWKO OFFICE TOURISTA O 11AM I 2:30PM."
+
+#: .\websiteproj\templates\index.html:180
+msgid "We'll visit famous places such as :"
+msgstr "Odwiedzimy słynne miejsca takie jak:"
+
+#: .\websiteproj\templates\index.html:183
+msgid "The Docklands and The Lagan River"
+msgstr "Docklands i rzeka Lagan"
+
+#: .\websiteproj\templates\index.html:184
+#: .\websiteproj\templates\index.html:315
+#: .\websiteproj\templates\index.html:393
+msgid "Cathedral Quarter"
+msgstr "Dzielnica Katedralna"
+
+#: .\websiteproj\templates\index.html:185
+#: .\websiteproj\templates\index.html:328
+msgid "Belfast City Hall"
+msgstr "Ratusz w Belfaście"
+
+#: .\websiteproj\templates\index.html:186
+#: .\websiteproj\templates\index.html:341
+msgid "Albert Clock"
+msgstr "Zegar Alberta"
+
+#: .\websiteproj\templates\index.html:187
+msgid "The Big Fish"
+msgstr "Duza Ryba"
+
+#: .\websiteproj\templates\index.html:188
+msgid "City Laneways"
+msgstr "Laneways miasta"
+
+#: .\websiteproj\templates\index.html:205
+msgid "BOOK HERE"
+msgstr "BOOKUJ TUTAJ"
+
+#: .\websiteproj\templates\index.html:206
+msgid ""
+"Please fill out the form to register a booking, you will recieve an email "
+"with your booking registration."
+msgstr ""
+"Wypełnij formularz, aby zarejestrować rezerwację, otrzymasz e-mail z "
+"rejestracją rezerwacji."
+
+#: .\websiteproj\templates\index.html:215
+msgid "Location:"
+msgstr "Lokalizacja:"
+
+#: .\websiteproj\templates\index.html:227
+msgid "Call:"
+msgstr "Zadzwon:"
+
+#: .\websiteproj\templates\index.html:240
+#: .\websiteproj\templates\index.html:482
+msgid "Your Name"
+msgstr "Twoje Imie"
+
+#: .\websiteproj\templates\index.html:245
+#: .\websiteproj\templates\index.html:487
+msgid "Your Email"
+msgstr "Twój email"
+
+#: .\websiteproj\templates\index.html:251
+msgid "Phone Number"
+msgstr "Numer Telefonu"
+
+#: .\websiteproj\templates\index.html:256
+msgid "Booking Details"
+msgstr "Detale Bookingu"
+
+#: .\websiteproj\templates\index.html:261
+msgid "Your booking is being made..."
+msgstr "Twoja rezerwacja jest w trakcie ..."
+
+#: .\websiteproj\templates\index.html:263
+msgid "Confirm Booking"
+msgstr "Potwierdź rezerwację"
+
+#: .\websiteproj\templates\index.html:280
+msgid "Gallery"
+msgstr "Galeria"
+
+#: .\websiteproj\templates\index.html:281
+msgid "This is a compliation of photos of the famous places the tour visits."
+msgstr "To jest kompilacja zdjęć słynnych miejsc, które odwiedza wycieczka."
+
+#: .\websiteproj\templates\index.html:287
+msgid "All"
+msgstr "Wszystko"
+
+#: .\websiteproj\templates\index.html:288
+#: .\websiteproj\templates\index.html:355
+#: .\websiteproj\templates\index.html:381
+msgid "River"
+msgstr "Rzeka"
+
+#: .\websiteproj\templates\index.html:289
+#: .\websiteproj\templates\index.html:316
+#: .\websiteproj\templates\index.html:329
+msgid "City Center"
+msgstr "Centrum miasta"
+
+#: .\websiteproj\templates\index.html:290
+msgid "City Lanes"
+msgstr "Lanes miasta"
+
+#: .\websiteproj\templates\index.html:302
+#: .\websiteproj\templates\index.html:380
+msgid "The Docklands and Lagan River"
+msgstr "Docklands i Lagan River"
+
+#: .\websiteproj\templates\index.html:354
+msgid "Belfast's Big Fish"
+msgstr "Belfasta duza ryba"
+
+#: .\websiteproj\templates\index.html:367
+msgid "Belfast's City Lanes"
+msgstr "Lanes miasta Belfast"
+
+#: .\websiteproj\templates\index.html:368
+msgid "App"
+msgstr "App"
+
+#: .\websiteproj\templates\index.html:394
+msgid "Card"
+msgstr "Karta"
+
+#: .\websiteproj\templates\index.html:411
+msgid "Reviews"
+msgstr "Opinie"
+
+#: .\websiteproj\templates\index.html:412
+msgid ""
+"We strive for the best possible free tour to offer to the public, and your "
+"feedback is very important to us."
+msgstr ""
+"Dążymy do jak najlepszej bezpłatnej wycieczki do zaoferowania publiczności, "
+"a Twoja opinia jest dla nas bardzo ważna."
+
+#: .\websiteproj\templates\index.html:421
+msgid ""
+"Altogther a very enjoyable experience! The tour guides were very friendly "
+"and good. Would definetly recommend this service!"
+msgstr ""
+"W sumie bardzo przyjemne doświadczenie! Przewodnicy byli bardzo przyjaźni i "
+"dobrzy. Zdecydowanie poleciłbym tę usługę!"
+
+#: .\websiteproj\templates\index.html:437
+msgid "Tour was very good, with very good places to go sight-seeing."
+msgstr "Wycieczka była bardzo dobra, z bardzo dobrymi miejscami do zwiedzania."
+
+#: .\websiteproj\templates\index.html:453
+msgid ""
+"The tour was on time and the guides were really helpful in learning about "
+"the city."
+msgstr ""
+"Wycieczka odbyła się punktualnie, a przewodnicy byli bardzo pomocni w "
+"poznawaniu miasta."
+
+#: .\websiteproj\templates\index.html:475
+msgid "Send us an Email and we'll get back to you ASAP."
+msgstr "Wyślij nam e-mail, a my skontaktujemy się z Tobą jak najszybciej."
+
+#: .\websiteproj\templates\index.html:493
+msgid "Subject"
+msgstr "Przedmiot"
+
+#: .\websiteproj\templates\index.html:498
+msgid "Details"
+msgstr "Detale"
+
+#: .\websiteproj\templates\index.html:503
+msgid "Thank you!"
+msgstr "Dziękuję Ci!"
+
+#: .\websiteproj\templates\index.html:505
+msgid "Send Message"
+msgstr "Wyślij wiadomość"
+
+#: .\websiteproj\templates\index.html:518
+msgid ""
+"Be sure to check out the other tours we offer too and follow us on our "
+"socials!"
+msgstr ""
+"Koniecznie sprawdź inne oferowane przez nas wycieczki i śledź nas na naszych "
+"portalach społecznościowych!"
+
+#: .\websiteproj\templates\index.html:526
+msgid "Designed by Michal Korneluk C19434762"
+msgstr "Zaprojektowany przez Michała Korneluka C19434762"
